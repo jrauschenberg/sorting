@@ -11,10 +11,10 @@ function bubbleSort(inputArr) {
                 inputArr[i+1] = inputArr[i];
                 inputArr[i] = temp;
                 unsorted = true;
-                swaps++
+                swaps++;
             }
         };
-        passes++
+        passes++;
     }
     return inputArr;
 }
